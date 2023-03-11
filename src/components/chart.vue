@@ -157,8 +157,8 @@ main form button {
 		margin-top: 0.4px;
 	}
 	.weight-history ul li + li {
-	border-top: 1px solid red;
-}
+		border-top: 1px solid red;
+	}
 }
 @media (max-width: 685px) {
 	.weight-history ul li {
@@ -169,7 +169,7 @@ main form button {
 		font-size: 16px;
 	}
 	.weight-history ul li + li {
-	border-top: 1px solid red;
-}
+		border-top: 1px solid red;
+	}
 }
 </style>
