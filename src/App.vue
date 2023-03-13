@@ -1,5 +1,5 @@
 <template>
-	<div ref="container" class="container">
+	<div class="container" ref="container">
 		<div class="dark-light">
 			<button @click="changeTitle">
 				<i class="bi bi-brightness-high-fill"></i>
@@ -38,7 +38,7 @@ export default {
 		changeTitle2() {
 			this.$refs.container.style.background = "#3e3d32";
 			this.$refs.container.style.color = "white";
-			this.click.changeTitle.style.color = "white";
+			this.changeTitle2.style.color = "white";
 		},
 	},
 };
